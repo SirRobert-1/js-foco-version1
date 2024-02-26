@@ -1,0 +1,29 @@
+body {
+  background-color: #333; /* Color de fondo oscuro por defecto */
+  color: white; /* Color de texto blanco por defecto */
+  font-family: Arial, sans-serif; /* Fuente por defecto */
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  text-align: center;
+  padding: 20px;
+}
+
+.foco {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.oscuridad {
+  background-color: #333; /* Color de fondo oscuro */
+  color: white; /* Color de texto blanco cuando está oscuro */
+}
+
+.luz {
+  background-color: #fff; /* Color de fondo claro */
+  color: black; /* Color de texto negro cuando está claro */
+}
